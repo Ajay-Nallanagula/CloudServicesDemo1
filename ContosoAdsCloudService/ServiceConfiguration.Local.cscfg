@@ -5,6 +5,7 @@
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="89fa55f3-f998-4300-bf62-ae542369cf34" />
     </ConfigurationSettings>
   </Role>
   <Role name="ContosoAdsWorker">
@@ -13,7 +14,8 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
       <!--<Setting name="ContosoAdsDbConnectionString" value="Data Source=(localdb)\v11.0; Initial Catalog=ContosoAds; Integrated Security=True; MultipleActiveResultSets=True;" />-->
-      <Setting name="ContosoAdsDbConnectionString" value="Data Source=AJAYKUMAR\MSSQLSERVER16; Initial Catalog=ContosoAds; User ID=sa;Password=user;Integrated Security=True; MultipleActiveResultSets=True;"/>
+      <Setting name="ContosoAdsDbConnectionString" value="Data Source=AJAYKUMAR\MSSQLSERVER16; Initial Catalog=ContosoAds; User ID=sa;Password=user;Integrated Security=True; MultipleActiveResultSets=True;" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="89fa55f3-f998-4300-bf62-ae542369cf34" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>

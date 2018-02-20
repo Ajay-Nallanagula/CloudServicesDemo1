@@ -3,16 +3,18 @@
   <Role name="ContosoAdsWeb">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=contsoadsstorageaccount;AccountKey=V/j5qTcRLjbtCvMzeh/Bum3jJTGQao1/WqkHQlDkMSZwHaHZE9xnLvJskhzaT5iDJI7uK0m19TSCtUWkiMThKQ==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=contsoadsstorageaccount;AccountKey=V/j5qTcRLjbtCvMzeh/Bum3jJTGQao1/WqkHQlDkMSZwHaHZE9xnLvJskhzaT5iDJI7uK0m19TSCtUWkiMThKQ==" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="89fa55f3-f998-4300-bf62-ae542369cf34" />
     </ConfigurationSettings>
   </Role>
   <Role name="ContosoAdsWorker">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="ContosoAdsDbConnectionString" value="Data Source=(localdb)\v11.0; Initial Catalog=ContosoAds; Integrated Security=True; MultipleActiveResultSets=True;" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=contsoadsstorageaccount;AccountKey=V/j5qTcRLjbtCvMzeh/Bum3jJTGQao1/WqkHQlDkMSZwHaHZE9xnLvJskhzaT5iDJI7uK0m19TSCtUWkiMThKQ==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=contsoadsstorageaccount;AccountKey=V/j5qTcRLjbtCvMzeh/Bum3jJTGQao1/WqkHQlDkMSZwHaHZE9xnLvJskhzaT5iDJI7uK0m19TSCtUWkiMThKQ==" />
+      <Setting name="ContosoAdsDbConnectionString" value="Server=tcp:contsoadsdbserver.database.windows.net,1433;Initial Catalog=ContsoAdsDB;Persist Security Info=False;User ID=AjayNallanagula;Password=Vasisht18;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="89fa55f3-f998-4300-bf62-ae542369cf34" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>

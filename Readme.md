@@ -1,3 +1,5 @@
+https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-dotnet-get-started
+
 Azure App Service, Virtual Machines, Service Fabric, and Cloud Services comparison
 https://docs.microsoft.com/en-us/azure/app-service/choose-web-site-cloud-service-vm
 
@@ -44,3 +46,9 @@ Azure affinity groups provide a mechanism to minimize the distance between resou
 Disadvantages of Cloud Services : https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-deployment-model
 Cloud Services does not support Resource Manager deployment model.
 NOTE : However, just existing within a resource group does not mean that the resource has been converted to the Resource Manager model.
+
+Web-Transformations: Why do we use web transformations ??
+When you compare web.config vs web.release.config , we will ahve few changes pertaining to connectionStrings,compilation(remove debug), compilation configuring elmah and show only generic error page to end users, etc if we don't use web transformations we might have to do them manually each and every time, web transformations is a way to automate them.
+We can also use Web Deploy way.
+
+Exposing error information is a major security threat which should not be done.
