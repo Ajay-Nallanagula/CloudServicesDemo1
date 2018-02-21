@@ -1,4 +1,5 @@
 https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-dotnet-get-started
+https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-model-and-package
 
 Azure App Service, Virtual Machines, Service Fabric, and Cloud Services comparison
 https://docs.microsoft.com/en-us/azure/app-service/choose-web-site-cloud-service-vm
@@ -8,7 +9,7 @@ https://docs.microsoft.com/en-us/azure/app-service/choose-web-site-cloud-service
 2. Basic difference between AppService and Cloud Services is in cloud services you will have more control over the VM's .
 
 3. Azure offers fault management, automatic patching, SPs, security fixes with cloud services
-
+ 
 https://cloudacademy.com/blog/microsoft-azure-app-service-virtual-machines/
 
 Basics of Azure Cloud Services:https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-choose-me
